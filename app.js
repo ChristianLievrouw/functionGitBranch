@@ -146,7 +146,7 @@ var message = 'The numbers ';
 for(i = 0; i < dynamicArray.length; i++){
   message = message + dynamicArray[i];
   if(i < dynamicArray.length - 1){
-    message = message + '.';
+    message = message + ',';
   }
 }
 message = message + ' have a product of ' + product + '.';
